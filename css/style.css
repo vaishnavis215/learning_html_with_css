@@ -1,0 +1,18 @@
+h3{
+    color: blue;
+    background-color: wheat;
+    font-size: 50px;
+    font-style: italic;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+h2{
+    font-size: 50px;
+    color: darkgoldenrod;
+    font-style: italic;
+
+}
