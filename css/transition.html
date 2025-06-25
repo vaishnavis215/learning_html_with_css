@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 10pox;
+            background-color: rgb(234, 192, 63);
+            width: 1000px;
+            height: 700px;
+            align-items: center;
+            left: 100px;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(250, 81, 14);
+            margin: 10px;
+            border-radius: 10px;
+            font-weight: 200px;
+            transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 10px 10px 2px rgb(214, 21, 63);
+
+
+
+        }
+        .box1:hover{
+            transform: translate(50px, 50px);
+        }
+        .box2:hover{
+            transform: translateX(50px);
+        }
+        .box3:hover{
+            transform: translateY(50px);
+        }
+        .box4:hover{
+            transform: scale(1.2);
+        }
+        
+        .box5:hover{
+            transform: rotate(45deg);
+        }
+        .box6:hover{
+            transform: skew(30deg);
+        }
+        .box7:hover{
+            transform: skewX(30deg) scale-in(2) rotate(30deg) ;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">Translate </div>
+        <div class="box box2"> Translate x</div>
+        <div class="box box3">Translate y</div>
+        <div class="box box4">Scale</div>
+        <div class="box box5">Rotate</div>
+        <div class="box box6">Skew</div>
+        <div class="box box7">multi</div>
+    </div>
+</body>
+</html>

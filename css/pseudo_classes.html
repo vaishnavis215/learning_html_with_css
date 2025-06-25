@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo_classes</title>
+    <style>
+        body{
+            background-color: rgb(234, 192, 63);
+        }
+        .hover_effect{
+            color: rgb(41, 15, 206);
+            text-align: center;
+            font-size: 50px;
+            margin-top: 100px;
+            text-transform: uppercase;
+            text-shadow: 5px 2px 4px rgba(7, 226, 218, 0.5);
+        }
+        .hover_effect:hover{
+            color: rgb(255, 0, 0);
+            text-shadow: 5px 2px 4px rgba(255, 0, 0, 0.5);
+            transform: scale(1.1);
+        }
+        input:focus{
+            background-color: rgb(64, 181, 220);
+            border: 2px outset rgb(98, 141, 209);
+            
+        }
+        a:visited{
+            color: rgb(255, 0, 0);
+        }
+        ul{
+            list-style-type: none;
+            padding: 4px;
+            margin: 5px;
+            border: 3px outset rgb(225, 40, 71);
+            background-color: rgb(173, 68, 68);
+            
+        }
+        li{
+            padding: 8px;
+            margin: 5px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        li:nth-child(odd){
+            background-color: rgb(70, 46, 204);
+            text-transform: uppercase;
+
+        }
+        li:first-child{
+            background-color: rgb(255, 0, 0);
+            color: white;
+            font-weight: bold;
+
+        }
+        input[type="text"]{
+            border: 3px outset rgb(23, 23, 239);
+            padding: 10px;
+            width: 500px;
+            color: white;
+
+        }
+        input[placeholder]{
+            background-color: rgb(116, 116, 205);
+            color: white;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="enter your name" />
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+        <li>item 8</li>
+        <li>item 9</li>
+        <li>item 10</li>
+
+    <input type="text" placeholder="Enter your name" style="display: block; margin: 20px auto; padding: 10px; width: 400px; font-size: 16px;">
+
+    <h1 class="hover_effect"> Vaishnavi Suryawanshi</h1>
+    <a href="">   
+    </a>
+</body>
+</html>
