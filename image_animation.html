@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Animation</title>
+    <style>
+        body {
+            background:linear-gradient(to right, #571c0a, #1142d4);
+            background: linear-gradient(to bottom, #571c0a, #0649f2);
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: 500px;
+            margin: 20px;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-duration: alternate; 
+            animation: img;
+            
+        
+        }
+        .img1:hover{
+            transition-delay: 0s;
+            transform: scale(1.1);
+            cursor: pointer;
+            
+        }
+        .img2:hover{
+            transition-delay: 0s;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .img3:hover{
+            transition-delay: 0s;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        div{
+            height: 60px;
+            background-color: aquamarine;
+            width: 1500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            border-radius: 15px;
+            border: 4px inset blue;
+            box-shadow: 3px 5px 5px rgb(86, 86, 148);
+            color: rgb(246, 243, 243);
+            text-shadow: 5px 5px 5px rgb(51, 11, 254);
+            background: linear-gradient(to right, #462811, #4a1817);
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>Image Animation</div>
+    <img  class="img2" src="IMG-20250617-WA0002[1].jpg" height="700px"/>
+    <img class="img3" src="images/WhatsApp Image 2025-06-19 at 14.34.36_3ae20199.jpg"/>
+    <img class="img1" src="vaish1.jpg"/>
+    
+</body>
+</html>

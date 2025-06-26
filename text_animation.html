@@ -12,19 +12,25 @@
             align-items: center;
             font-size: 50px;
             color: rgb(6, 6, 6);
+            align-items: center;
+            justify-content: center;
 
         }
         #text> b{
-            height: 60px;
-            width: 100px;
+            height: 200px;
+            width: 300px;
             transition: transform 0.3s ease;
             background: linear-gradient(to right, #e0431c, #db7120);
             transform: scale(1);
             animation: getup;
             color: rgb(241, 241, 239);
             animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-iteration-count: one;
             animation-direction: alternate;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            position: relative
         }
         #text>b:nth-child(1){
             animation-delay: 0s;
@@ -34,13 +40,13 @@
             animation-delay: 1s;
         }
         #text>b:nth-child(3){
-            animation-delay: 1.1s;
+            animation-delay: 2s;
         }
         #text>b:nth-child(4){
-            animation-delay: 1.3s;
+            animation-delay: 3s;
         }
         #text>b:nth-child(5){
-            animation-delay: 2s;
+            animation-delay: 4s;
         }
         @keyframes getup{
             10%,50% { transform: scale(1.2); }
