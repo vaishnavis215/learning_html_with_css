@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple animations</title>
+    <style>
+         div {
+            background-color: rgb(234, 188, 49);
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation: myAnimation 20s infinite;
+            animation-direction: alternate;
+            
+         }
+        @keyframes myAnimation {
+                0% { background-color: rgb(234, 188, 49);left: opx;top: 0px;}
+                25% { background-color: rgb(225, 56, 56); left: 100px;top: 0px;}
+                50% { background-color: rgb(56, 225, 56); left: 100px;top: 100px;}
+                75% { background-color: rgb(56, 56, 225); left: 0px;top: 100px;}
+                100% { background-color: rgb(225, 56, 225); left: 0px;top: 0px;}
+            }
+         
+</style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

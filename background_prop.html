@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: rgb(171, 148, 77);
+            width: 300px;
+            height: 100px;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 100px;
+            font-size: 40px;
+            border-radius: 10px;
+        }
+        .linear {
+            background: linear-gradient(to right, #e0431c, #db7120);
+            color: rgb(13, 1, 1);
+            padding: 20px;
+            height: 150px;
+            width: 600px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotateX('45deg') scale(1);
+        }
+        .linear:hover {
+            transform: scale(1.05);
+        }
+        .radial:hover {
+            transform: scale(1.05);
+        }
+        .radial {
+            background: radial-gradient( circle at center, #bedf19, #f21d5d);
+            color: rgb(13, 1, 1);
+            padding: 20px;
+            height: 200px;
+            width: 600px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            text-align: center;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .conic {
+            background: conic-gradient(from 90deg, #ae17c5, #bb8019, #ce153a);
+            color: rgb(13, 1, 1);
+            padding: 20px;
+            height: 200px;
+            width: 600px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            text-align: center;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .conic:hover {
+            transform: scale(1.05);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="conic"> conic-gradient||Vaishnavi suryawanshi</div>
+    <div class="radial"> Radial-gradient||Vaishnavi Suryawanshi</div>
+    <div class="linear"> linear-gradient||Vaishnavi suryawanshi</div>
+</body>
+</html>
